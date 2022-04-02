@@ -4,12 +4,12 @@
 
 
 <h2>Desafio:</h2>
-<ul>
-<li>Ao executar o container com o comando docker run usuario/codeeducation deve 
-ser  exibido no console a mensagem: Code.education Rocks! </li>
-<li>A imagem que deve subir para o Docker HUB deve no máixmo 2 MB.</li>
-<li>Utilizar a linguagem GO.</li>
-<ul>
+
+1. Ao executar o container com o comando docker run usuario/codeeducation deve 
+ser  exibido no console a mensagem: Code.education Rocks!;
+2. A imagem que deve subir para o Docker HUB deve no máixmo 2 MB;
+3. Utilizar a linguagem GO.
+
 
 
 <h2>Passo-a-Passo para resolução do desafio</h2>
