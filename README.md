@@ -2,17 +2,25 @@
 <p>Imagem no Docker HUB:</p>
 <b>fabiocaettano74/codeducation</b>
 
-<h1>Passo-a-Passo para construção do desagio</h1>
 
-1. Configurar Dockerfile.
+<h2>Desafio: Ao executar o container com o comando docker run usuario/codeeducation deve 
+ser  exibido no console a mensagem: Code.education Rocks! </h2>
+
+<h2>A imagem que deve subir para o Docker HUB deve no máixmo 2 MB.</h2>
+<h2>Utilizar a linguagem GO.</h2>
+
+
+<h2>Passo-a-Passo para resolução do desafio</h2>
+
+1. Dockerfile.
 Esta imagem utiliza a distribuição ubuntu.
 Realiza o download do golang.
 Depois o arqivo é descompactado.
-O path é atualizado ara utilizar o comando go em qualquer diretório.
+O path é atualizado para utilizar o comando go em qualquer diretório.
 
 2. Configurar o docker-compose.yaml.
 O arquivo aponta para o diretório go.
-É utilizado o recurso de volume para configurar o arquivo main.go
+Utilizado o recurso de volume para configurar o arquivo main.go
 
 2. Construir o container:
 ```
