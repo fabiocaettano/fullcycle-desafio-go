@@ -7,7 +7,7 @@
 
 1. Ao executar o container com o comando docker run usuario/codeeducation deve 
 ser  exibido no console a mensagem: Code.education Rocks!;
-2. A imagem que deve subir para o Docker HUB deve no máixmo 2 MB;
+2. A imagem que deve subir para o Docker HUB com no máixmo 2 MB;
 3. Utilizar a linguagem GO.
 
 
