@@ -1,0 +1,15 @@
+FROM golang:1.18 as production
+
+RUN mkdir /app
+
+WORKDIR /app
+
+COPY . .
+
+FROM scratch
+
+COPY --from=production /app / 
+
+WORKDIR /hello
+
+ENTRYPOINT ["./hello"]
