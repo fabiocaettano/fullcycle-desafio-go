@@ -1,13 +1,15 @@
 <h1>Desafio FullCycle Docker</h1>
-<p>Imagem no Docker HUB:</p>
+<h2>Imagem no Docker HUB:</h2>
 <b>fabiocaettano74/codeducation</b>
 
 
-<h2>Desafio: Ao executar o container com o comando docker run usuario/codeeducation deve 
-ser  exibido no console a mensagem: Code.education Rocks! </h2>
-
-<h2>A imagem que deve subir para o Docker HUB deve no máixmo 2 MB.</h2>
-<h2>Utilizar a linguagem GO.</h2>
+<h2>Desafio:</h2>
+<ul>
+<li>Ao executar o container com o comando docker run usuario/codeeducation deve 
+ser  exibido no console a mensagem: Code.education Rocks! </li>
+<li>A imagem que deve subir para o Docker HUB deve no máixmo 2 MB.</li>
+<li>Utilizar a linguagem GO.</li>
+<ul>
 
 
 <h2>Passo-a-Passo para resolução do desafio</h2>
