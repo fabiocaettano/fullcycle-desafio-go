@@ -6,6 +6,13 @@ WORKDIR /app
 
 COPY . .
 
+WORKDIR /app/hello
+
+RUN go mod init hello
+
+RUN go build
+
+
 FROM scratch
 
 COPY --from=production /app / 
