@@ -22,8 +22,3 @@ WORKDIR /usr/src/app/hello
 
 COPY . .
 
-RUN go mod init hello
-
-#RUN go build main.go
-
-
